@@ -3,18 +3,7 @@ const express = require('express');
 
 const app = express();
 
-// cpf - String
-// name - String
-// id - uuid
-// statement - []
-
-app.post("/account", (request, response) => {
-  const cpf = request.body;
-});
-
-
 app.listen(3333);
-
 
  app.use(express.json());
 
